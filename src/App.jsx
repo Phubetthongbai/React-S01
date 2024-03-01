@@ -7,11 +7,13 @@ function App() {
   return (
     <div className='App'>
       < Counter />
+
       <Hello name="Phubet" message="Hi there"/>
       <Hello name="Nice" message="Hello.."/>
+
       <Contact email="nice@gmail.com" phone="0988848052" />
     </div>
   );
-}
 
+}
 export default App;
